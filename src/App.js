@@ -1,11 +1,12 @@
 
 import React from "react";
-import Banners from "./components/banner";
+import {BrowserRouter as Router } from "react-router-dom";
+import MasterRoute from "./routes/MasterRoute";
 function App() {
   return (
-    <div>
-      <Banners/>
-    </div>
+    <Router>
+      <MasterRoute/>
+    </Router>
   );
 }
 
